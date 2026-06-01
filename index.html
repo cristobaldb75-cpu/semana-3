@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Rincón Chileno - Restaurante</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-section">
+      <h1>El Rincón Chileno</h1>
+      <p class="slogan">Sabor auténtico de Chile en cada plato</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#platos">Platos Destacados</a></li>
+        <li><a href="#reserva">Reserva</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h2>Bienvenido a El Rincón Chileno</h2>
+        <p>Disfruta de la gastronomía tradicional chilena con ingredientes frescos y recetas auténticas</p>
+        <button class="cta-button">Explorar Menú</button>
+      </div>
+    </section>
+
+    <!-- Sección Platos Destacados -->
+    <section id="platos" class="platos-destacados">
+      <h2>Nuestros Platos Destacados</h2>
+      <div class="platos-grid">
+        <article class="tarjeta-plato">
+          <div class="plato-imagen">🍲</div>
+          <h3>Pastel de Choclo</h3>
+          <p>Delicioso pastel de choclo relleno de carne molida, cebolla y huevo, gratinado con queso.</p>
+          <span class="precio">$12.990</span>
+        </article>
+
+        <article class="tarjeta-plato">
+          <div class="plato-imagen">🌶️</div>
+          <h3>Ceviche Chileno</h3>
+          <p>Pescado fresco marinado con limón, cilantro y ají, acompañado de camote y choclo.</p>
+          <span class="precio">$14.990</span>
+        </article>
+
+        <article class="tarjeta-plato">
+          <div class="plato-imagen">🥘</div>
+          <h3>Empanadas Criollas</h3>
+          <p>Empanadas caseras rellenas de carne, cebolla, aceitunas y huevo cocido. Crocantes y jugosas.</p>
+          <span class="precio">$8.990</span>
+        </article>
+
+        <article class="tarjeta-plato">
+          <div class="plato-imagen">🍷</div>
+          <h3>Cazuela de Vacuno</h3>
+          <p>Guiso tradicional con vacuno, verduras frescas y papas en caldo casero. Perfecto para compartir.</p>
+          <span class="precio">$13.990</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Sección Reserva -->
+    <section id="reserva" class="reserva">
+      <h2>Reserva tu Mesa</h2>
+      <form class="formulario-reserva">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="tu@email.com">
+        </div>
+
+        <div class="form-group">
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" required placeholder="+56 9 XXXX XXXX">
+        </div>
+
+        <div class="form-group">
+          <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" name="fecha" required>
+        </div>
+
+        <div class="form-group">
+          <label for="hora">Hora:</label>
+          <input type="time" id="hora" name="hora" required>
+        </div>
+
+        <div class="form-group">
+          <label for="personas">Número de personas:</label>
+          <input type="number" id="personas" name="personas" min="1" max="20" required placeholder="Ej: 4">
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje especial:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Algún requerimiento especial..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Reservar Ahora</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>El Rincón Chileno</h3>
+        <p>Restaurante especializado en gastronomía tradicional chilena.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Ubicación</h4>
+        <p>Calle Chile Nº 2890<br>Santiago, Chile</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Contacto</h4>
+        <p>Teléfono: +56 9 2222 2222<br>Email: info@elrinconchileno.cl</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Horario</h4>
+        <p>Lunes a Jueves: 12:00 - 23:00<br>Viernes a Domingo: 12:00 - 00:00</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 El Rincón Chileno. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
